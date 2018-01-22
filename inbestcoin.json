@@ -1,0 +1,48 @@
+{
+    "base_coin": {
+        "name": "bytecoin",
+        "git": "https://github.com/amjuarez/bytecoin.git"
+    },
+    "core": {
+        "SEED_NODES": [
+            "54.71.107.179:27174",
+            "34.208.210.150:27174"
+        ],
+        "EMISSION_SPEED_FACTOR": 18,
+        "DIFFICULTY_TARGET": 120,
+        "CRYPTONOTE_DISPLAY_DECIMAL_POINT": 12,
+        "MONEY_SUPPLY": "18446744073709551615",
+        "GENESIS_BLOCK_REWARD": "5534023222112865000",
+        "DEFAULT_DUST_THRESHOLD": 1000000,
+        "MINIMUM_FEE": 1000000,
+        "CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW": 10,
+        "CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE": 100000,
+        "MAX_TRANSACTION_SIZE_LIMIT": 100000,
+        "CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX": 86,
+        "DIFFICULTY_CUT_V1": 60,
+        "DIFFICULTY_CUT_V2": 60,
+        "DIFFICULTY_CUT": 0,
+        "DIFFICULTY_LAG_V1": 15,
+        "DIFFICULTY_LAG_V2": 15,
+        "DIFFICULTY_LAG": 0,
+        "DIFFICULTY_WINDOW_V1": 720,
+        "DIFFICULTY_WINDOW_V2": 720,
+        "DIFFICULTY_WINDOW": 17,
+        "ZAWY_DIFFICULTY_V3": 1,
+        "ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION": 3,
+        "P2P_DEFAULT_PORT": 27174,
+        "RPC_DEFAULT_PORT": 27175,
+        "BYTECOIN_NETWORK": "c0ca09e6-bef8-4409-79d4-3cd1593a5e64",
+        "CRYPTONOTE_NAME": "inbestcoin",
+        "DAEMON_NAME": "inbestcoind",
+        "GENESIS_COINBASE_TX_HEX": "010a01ff0001e895b3e6cc99b3e64c0254f0340a511e6dba2a38613fb8fb16cd5e4ac40a25a7dc58a86113f11d97d5642101ebd8f3595b2f8a0bf4844f1a10fca58aadf43c5e9fe76cf60a69aa023842073c",
+        "CHECKPOINTS": "",
+        "MAX_BLOCK_SIZE_INITIAL": 100000
+    },
+    "extensions": [
+        "core/bytecoin.json",
+        "print-genesis-tx.json",
+        "genesis-block-reward.json",
+        "bug-fixes.json"
+    ]
+}
