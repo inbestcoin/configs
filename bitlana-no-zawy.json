@@ -1,0 +1,50 @@
+{
+    "base_coin": {
+        "name": "bytecoin",
+        "git": "https://github.com/amjuarez/bytecoin.git"
+    },
+    "core": {
+        "SEED_NODES": [
+            "54.71.107.179:24505",
+            "34.208.210.150:24505"
+        ],
+        "EMISSION_SPEED_FACTOR": 17,
+        "DIFFICULTY_TARGET": 120,
+        "CRYPTONOTE_DISPLAY_DECIMAL_POINT": 12,
+        "MONEY_SUPPLY": "18446744073709551615",
+        "GENESIS_BLOCK_REWARD": "3873816255479005700",
+        "DEFAULT_DUST_THRESHOLD": 1000000,
+        "MINIMUM_FEE": 1000000,
+        "CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW": 10,
+        "CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE": 100000,
+        "MAX_TRANSACTION_SIZE_LIMIT": 100000,
+        "CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX": 65,
+        "DIFFICULTY_CUT_V1": 60,
+        "DIFFICULTY_CUT_V2": 60,
+        "DIFFICULTY_CUT": 0,
+        "DIFFICULTY_LAG_V1": 15,
+        "DIFFICULTY_LAG_V2": 15,
+        "DIFFICULTY_LAG": 0,
+        "DIFFICULTY_WINDOW_V1": 720,
+        "DIFFICULTY_WINDOW_V2": 720,
+        "DIFFICULTY_WINDOW": 17,
+        "P2P_DEFAULT_PORT": 24505,
+        "RPC_DEFAULT_PORT": 24506,
+        "BYTECOIN_NETWORK": "37e1d85c-7882-3e20-5eb2-a0c2dbce7449",
+        "CRYPTONOTE_NAME": "bitlana",
+        "DAEMON_NAME": "bitlanad",
+        "GENESIS_COINBASE_TX_HEX": "010a01ff00018484d7c7c2eba3e13502c83edf5bfc52d56bd8da54f978841459535986e515b4e10bf0184641bfc503992101ab070cc6881824ae54c8be7ff6bc0e4a2ee040a14a85ac301d4e037acfa8f3c7",
+        "CHECKPOINTS": "",
+        "MAX_BLOCK_SIZE_INITIAL": 100000,
+        "UPGRADE_HEIGHT_V2": 1,
+        "UPGRADE_HEIGHT_V3": 2
+    },
+    "extensions": [
+        "core/bytecoin.json",
+        "print-genesis-tx.json",
+        "genesis-block-reward.json",
+        "bug-fixes.json",
+        "enable-cors.json",
+        "blockchain-explorer.json"
+    ]
+}
